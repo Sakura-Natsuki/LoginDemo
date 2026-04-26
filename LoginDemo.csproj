@@ -58,10 +58,15 @@
     <Compile Include="IViewService.cs" />
     <Compile Include="LoginModel.cs" />
     <Compile Include="LoginViewModel.cs" />
+    <Compile Include="LogInWindowButton.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="RelayCommand.cs" />
+    <Page Include="LogInButtonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

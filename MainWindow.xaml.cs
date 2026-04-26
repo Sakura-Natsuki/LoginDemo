@@ -21,7 +21,7 @@ namespace LoginDemo
     {
         public MainWindow()
         {
-
+            InitializeComponent();
         }
     }
 }

@@ -55,6 +55,7 @@ namespace LoginDemo
             {
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
+                _viewService.Close();
             }
             else
             {
@@ -63,7 +64,6 @@ namespace LoginDemo
                 UserName = "";
                 PassWord = "";
             }
-
         }
 
         public bool CanLogIn()
